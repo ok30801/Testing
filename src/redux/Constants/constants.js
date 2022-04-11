@@ -1,0 +1,5 @@
+export const SET_NUMBER_QUESTION = 'SET_NUMBER_QUESTION'
+export const SET_SCORES = 'SET_SCORES'
+export const MAX_SCORES = 'MAX_SCORES'
+export const GET_QUESTIONS = 'GET_QUESTIONS'
+export const CLEAR_STORE = 'CLEAR_STORE'

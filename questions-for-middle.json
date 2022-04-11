@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "text":"<p>Для тестирования кондидата уровня middle</p><p>Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.</p> <p>Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.</p>"
+    },
+    {
+      "type": "buttonsType",
+      "text":"<p>2 + 2 = 5?</p>",
+      "answer": false
+    },
+    {
+      "type": "oneOptionsType",
+      "text":"<p>Что выведет консоль?</p><p>const sum = (a, b) => {</p><p>   return a + b</p> <p>}</p> <p>console.log(sum(5, 2))</p>",
+      "answers":[
+        {"text":"7", "correct": true},
+        {"text":"undefined", "correct": false},
+        {"text":"Ничего не выведет, возникнет ошибка", "correct": false}
+      ]
+    },
+    {
+      "type": "multipleOptionsType",
+      "text":"<di>6 + 2 = 8?</div>",
+      "answers":[
+        {"text":"Да", "correct": true},
+        {"text":"Возможно", "correct": true},
+        {"text":"Скорее - да, чем - нет", "correct": true},
+        {"text":"Сомневаюсь", "correct": false}
+      ]
+    },
+    {
+      "type": "imagesType",
+      "text":"<p>Изображен ли велосипед?<p>",
+      "images":[
+        {"image":"https://chelny.megastroy.com/storage/products/.thumbs/previewin600xin600_265163_1_9591b2490f97a8e45c2be0dd3a726734.jpg", "correct": true},
+        {"image":"https://sun9-52.userapi.com/slKdJfHL1b8CQQ5qShETXP2Z2CarPu1mfyNlPA/gbpu9mBtkZA.jpg", "correct": false},
+        {"image":"https://agrotimes.ua/wp-content/uploads/2020/07/mf-8s.jpg", "correct": false}
+      ]
+    },
+    {
+      "type": "oneOptionsType",
+      "text":"<p>Верно ли утверждение, что 16 + 6 = 22?</p>",
+      "answers":[
+        {"text":"Да", "correct": true},
+        {"text":"Нет", "correct": false},
+        {"text":"Сомневаюсь", "correct": false}
+      ]
+    },
+    {
+      "type": "imagesType",
+      "text":"<p>Изображен ли трактор?</p>",
+      "images":[
+        {"image":"https://www.bps-sberbank.by/img/individuals/insurance/insurance-flat-express-tile.png", "correct": false},
+        {"image":"https://kolomenka.ru/catalog_imgs/very_big/img_502128.jpg", "correct": false},
+        {"image":"https://tmbk.ru/media/k2/items/cache/e67ec824afbc9f855ad850f1b49c5b05_M.jpg?t=20200803_084440", "correct": true}
+      ]
+    },
+    {
+      "type": "buttonsType",
+      "text":"<p>2 + 2 = 5?</p>",
+      "answer": false
+    }
+  ]
+}
