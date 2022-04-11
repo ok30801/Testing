@@ -104,11 +104,18 @@
       text-decoration: none;
     }
   }
-  &__instruction {
+  &__instruction-title {
+    min-width: 100%;
+    max-width: 100%;
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
+  &__instruction-text {
     min-width: 100%;
     max-width: 100%;
     min-height: 50px;
-    padding: 10px;
+    padding: 20px 0 0 0 ;
+    border-top: 1px solid #f4eded;
     border-bottom: 1px solid #f4eded;
     border-radius: 5px;
     margin-bottom: 30px;
