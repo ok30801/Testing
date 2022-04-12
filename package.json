@@ -25,7 +25,10 @@
     "redux-thunk": "^2.3.0",
     "sass": "^1.42.1",
     "sweetalert2": "^11.1.2",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "concurrently": "^7.1.0",
+    "json-server": "^0.17.0",
+    "redux-persist": "^6.0.0"
   },
   "scripts": {
     "start": "concurrently \"react-scripts start\" \"json-server --watch questions-for-junior.json --port 3001\"",
@@ -50,10 +53,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "concurrently": "^6.2.1",
-    "json-server": "^0.16.3",
-    "redux-persist": "^6.0.0"
   }
 }
