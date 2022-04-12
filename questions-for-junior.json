@@ -13,7 +13,7 @@
     {
       "type": "oneOptionsType",
       "question":"Что выведет консоль?",
-      "code":"<p>const sum = (a, b) => {</p><p>   return a + b</p> <p>}</p> <p>console.log(sum(5, 2))</p>",
+      "code":"<p>const sum = (a, b) => {</p><p>  return a + b</p><p>}</p><p>console.log(sum(5, 2))</p>",
       "answers":[
         {"text":"7", "correct": true},
         {"text":"undefined", "correct": false},

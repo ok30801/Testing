@@ -29,7 +29,7 @@ const Question = () => {
       <div className="question__text" dangerouslySetInnerHTML={{__html: question}}/>
       {
         code
-          ? <div className="question__code-block"><code className="question__code" dangerouslySetInnerHTML={{__html: code}}/></div>
+          ? <pre className="question__code-block"><code className="question__code" dangerouslySetInnerHTML={{__html: code}}/></pre>
           : false
       }
     </div>
