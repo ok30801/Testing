@@ -31,7 +31,7 @@
     "redux-persist": "^6.0.0"
   },
   "scripts": {
-    "start": "concurrently \"react-scripts start\" \"json-server --watch questions-for-junior.json --port 3001\"",
+    "start": "concurrently \"react-scripts start\" \"json-server --watch db.json --port 3001\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
